@@ -1,12 +1,13 @@
 /* Fonts */
 /* Common Styles or Utilities */
-body{
+body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
     background-color: #f3f1ff;
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
 }
@@ -14,17 +15,29 @@ main{
 .container {
     background-color: #ffffff;
     width: 870px;
+    padding: 30px;
+}
+
+hr {
+    border: 5px solid #d1d1d1;
+    border-radius: 50%;
 }
 
 /* Top-Players Styles */
+.top-players {
+    margin-bottom: 30px;
+}
+
 .section-title {
     color: #562eff;
     font-size: 24px;
+    margin-top: 3px;
 }
 
 .players {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
 }
 
 .player {
@@ -36,6 +49,30 @@ main{
     height: 56px;
     width: 56px;
 }
-.player-name{
+
+.player-name {
     margin-left: 16px;
+}
+/* top blog styles */
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    height: 117px;
+    width: 150px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.blog-author a{
+    color: #562fff;
+    text-decoration: none;
+    font-size: 16px;
 }
