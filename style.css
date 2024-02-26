@@ -1,6 +1,12 @@
 /*   ---------------------
 Common Styles or Utilities
 --------------------------   */
+.navigation, nav{
+    display: flex;
+}
+.nav{
+    
+}
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -97,6 +103,11 @@ hr {
 }
 
 /*----- courses styles -----*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
 .course .course-banner img {
     height: 104px;
     width: 224px;
